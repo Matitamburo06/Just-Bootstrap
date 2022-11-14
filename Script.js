@@ -14,27 +14,35 @@
 
 // console.log(personas);
 
-//console.log(colorMascotas.length)
+// //console.log(colorMascotas.length)
 
-let talles = prompt("ingrese un alguno de estos talles: S , M, L, XL, XXL");
-switch (talles) {
-  case "S":
-  case "s":
-  case "m":
-  case "M":
-  case "L":
-  case "l":
-  case "xl":
-  case "XL":
-    talle = "Tenemos Stock";
-    alert(talle);
-    break;
-  case "XXL":
-  case "xxl":
-    talle = "No tenemos Stock";
-    alert(talle);
-    break;
-  default:
-    error = "No ingreso un talle. Por favor, siga las indicaciones";
-    alert(error);
-}
+// let talles = prompt("ingrese un alguno de estos talles: S , M, L, XL, XXL");
+// switch (talles) {
+//   case "S":
+//   case "s":
+//   case "m":
+//   case "M":
+//   case "L":
+//   case "l":
+//   case "xl":
+//   case "XL":
+//     talle = "Tenemos Stock";
+//     alert(talle);
+//     break;
+//   case "XXL":
+//   case "xxl":
+//     talle = "No tenemos Stock";
+//     alert(talle);
+//     break;
+//   default:
+//     error = "No ingreso un talle. Por favor, siga las indicaciones";
+//     alert(error);
+// }
+
+// function saludar(nombre) {
+//   nombre = prompt("Indique su nombre");
+
+//   alert("Hola" + nombre);
+// }
+
+// saludar("nombre");
